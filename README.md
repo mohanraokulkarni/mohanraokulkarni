@@ -1,143 +1,293 @@
 <div align="center">
 
-# Hi, I'm Mohanrao Kulkarni 👋
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,45:102A56,100:00A6A6&height=230&section=header&text=Mohanrao%20Kulkarni&fontSize=46&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=AI%20Enterprise%20Developer%20%E2%80%A2%20MODEL%20%E2%86%92%20RETRIEVE%20%E2%86%92%20SEE%20%E2%86%92%20ACT&descSize=16&descAlignY=56" alt="Mohanrao Kulkarni — AI Enterprise Developer" />
 
-### Specialist Programmer · AI/ML · Full-Stack · Robotics
+<a href="https://mohanraokulkarni.github.io/AIEngineer/">
+  <img src="https://img.shields.io/badge/ENTER_PORTFOLIO-00A6A6?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" />
+</a>
+<a href="https://www.linkedin.com/in/mohanraokulkarni-softwaredeveloper/">
+  <img src="https://img.shields.io/badge/CONNECT-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="mailto:mohanrao0702202@gmail.com">
+  <img src="https://img.shields.io/badge/START_A_CONVERSATION-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+</a>
 
-I build practical intelligent systems—from robots and computer-vision applications  
-to scalable full-stack platforms, geospatial pipelines, and energy technology.
+<br/><br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mohanrao_Kulkarni-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohanraokulkarni-softwaredeveloper/)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohanrao0702202@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-mohanraokulkarni-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mohanraokulkarni)
+**Specialist Programmer at Infosys · B.E. in AI & ML · CGPA 8.62**
+
+I build AI systems that can **learn from data, retrieve knowledge, understand visual environments, and act through software or robots.**
 
 </div>
 
 ---
 
-## About Me
+<div align="center">
 
-- 💼 **Specialist Programmer at Infosys**, working across AI-enabled platforms, APIs, interoperability, and full-stack engineering
-- 🎓 B.E. in **Artificial Intelligence and Machine Learning** from Basaveshwar Engineering College — **CGPA: 8.62**
-- 🤖 Interested in **robotics, ROS, AI agents, computer vision, edge AI, and intelligent automation**
-- 🧩 Experienced with **Python and Java backends, React applications, databases, ML pipelines, and Dockerized services**
-- ⚡ Building technology for real-world domains including **mobility, driver safety, EVs, energy, satellite data, and healthcare**
+[**SYSTEM**](#-system-identity) · [**AI LAB**](#-ai-systems-lab) · [**PROJECTS**](#-project-console) · [**EXPERIENCE**](#-experience-timeline) · [**STACK**](#-technology-control-panel) · [**CONTACT**](#-connect)
 
-## Engineering Focus
+</div>
 
-| Robotics & Embedded Systems | AI, ML & Computer Vision | Full-Stack Systems | Intelligent Infrastructure |
-|---|---|---|---|
-| ROS, differential-drive robots, motor control, sensors, feedback systems | Deep learning, predictive ML, image processing, forecasting, analytics | React, TypeScript, Spring Boot, FastAPI, REST APIs, PostgreSQL | EV charging, Beckn, energy platforms, geospatial pipelines, edge AI |
+---
 
-## Featured Projects
+## 🧬 System Identity
 
-### 🤖 ROS-Based Differential-Drive Robot
+<table>
+<tr>
+<td width="25%" align="center">
+<h3>MODEL</h3>
+Machine Learning<br/>
+Neural Networks<br/>
+Forecasting
+</td>
+<td width="25%" align="center">
+<h3>RETRIEVE</h3>
+RAG Pipelines<br/>
+Embeddings<br/>
+Vector Search
+</td>
+<td width="25%" align="center">
+<h3>SEE</h3>
+Computer Vision<br/>
+Image Processing<br/>
+Visual Intelligence
+</td>
+<td width="25%" align="center">
+<h3>ACT</h3>
+Robotics & ROS<br/>
+APIs & Agents<br/>
+Enterprise Products
+</td>
+</tr>
+</table>
 
-- Built a differential-drive robot and integrated its motion-control flow with **ROS**
-- Worked with motors that did not provide built-in feedback and analyzed the limitations of open-loop control
-- Explored encoder/sensor-based feedback architecture for odometry, closed-loop velocity control, and reliable robot-state estimation
+I am building toward one clear role: **AI Enterprise Developer**—an engineer who can move from model experimentation to secure APIs, retrieval systems, databases, deployment, monitoring, and real-world product integration.
 
-**Focus:** ROS · Differential-Drive Kinematics · Motor Control · Robot Feedback Systems
+## 🧠 AI Systems Lab
 
-### 🚘 Driver Safety Intelligence
+### Enterprise RAG Pipeline
 
-- Led the development of a real-time system for detecting **driver drowsiness and distraction**
-- Detected eye closure, yawning, phone usage, head orientation, and hands-off-steering conditions
-- Added sound, SMS, and email alerts for rapid intervention
-- Achieved **94% accuracy** and won **1st place at the WAVE 2.0 Hackathon**
+```mermaid
+flowchart TB
+    A["Enterprise data"] --> B["Ingestion, cleaning & chunking"]
+    B --> C["Embeddings & metadata"]
+    C --> D["Vector store & semantic retrieval"]
+    D --> E["Reranking & grounded generation"]
+    E --> F["Evaluation, guardrails & monitoring"]
+```
 
-**Tech:** Python · OpenCV · dlib · imutils · pygame · Twilio
+<details open>
+<summary><b>What I am developing in this direction</b></summary>
 
-### 🔧 Predictive Maintenance for Electric Vehicles
+<br/>
 
-- Built ML pipelines to predict **EV failure class, affected component, and time to failure**
-- Used voltage, current, temperature, vibration, ambient temperature, and humidity as system-health signals
-- Modeled thermal, electrical, mechanical, and environmental failures affecting battery packs, BMS, motor bearings, connectors, and cables
-- Explored Random Forest classification/regression and neural-network architectures for predictive maintenance
+- Document ingestion, preprocessing, chunking, and metadata strategies
+- Embeddings, semantic search, vector databases, and retrieval quality
+- Grounded LLM responses with citations and reduced hallucination
+- FastAPI-based AI services, Redis-backed memory, authentication, and caching
+- RAG evaluation, observability, guardrails, and agentic workflows
+- Local and cloud LLM integration for enterprise applications
 
-**Tech:** Python · Scikit-learn · TensorFlow/Keras · Pandas · Random Forests · Neural Networks
+**Current exploration:** LangChain · FAISS · Pinecone · Weaviate · Redis · FastAPI · AI Agents
 
-### 🛰️ INFYSPACE — SAR Processing Pipeline
+</details>
 
-- Worked on satellite-data processing and visualization during the Infosys Specialist Programmer internship
-- Built a processing flow to convert **SAR SLC data into analysis-ready GRD products**
-- Applied orbit correction, thermal-noise removal, calibration, multilooking, speckle filtering, and terrain correction
+## 🧩 Project Console
 
-**Tech:** Python · ESA SNAP · SAR · Geospatial Data Processing
+Click a project to inspect the system.
 
-### 🩺 Kidney Stone Detection Using CNN
+<details open>
+<summary><b>🚘 Driver Safety Intelligence — Computer Vision · 94% Accuracy · Hackathon Winner</b></summary>
 
-- Developed a CNN-based medical-image classification application with **89.88% accuracy**
-- Built a Tkinter interface using OpenCV and Pillow for image input and prediction
-- Processed more than 200 images through the application workflow
+### Mission
 
-**Tech:** Python · TensorFlow · Keras · OpenCV · Pillow · Tkinter
+Detect dangerous driver states in real time and trigger immediate intervention.
 
-### ⚡ Beckn-Enabled EV Charging & Unified Energy Interface
+### Intelligence
 
-- Installed and configured EV-charging hardware and worked with **CitrineOS** and **EVerest**
-- Developed an adaptor to translate proprietary charger services into Beckn-compatible schemas
-- Built an EV-owner application for charger discovery, booking, slot reservation, authentication, and live status
-- Contributed to AI use cases including demand forecasting, load optimization, and dynamic pricing
+- Eye-closure and drowsiness detection
+- Yawning detection
+- Phone-use detection
+- Head-orientation monitoring
+- Hands-off-steering detection
 
-**Tech:** Beckn · React · TypeScript · FastAPI · PostgreSQL · Docker · CitrineOS · EVerest
+### Response Layer
 
-> Professional work is summarized at a high level to respect organizational confidentiality.
+Sound, SMS, and email alerts for rapid intervention.
 
-### 💰 Simple Budget Tracker — CS50P Final Project
+### Result
 
-- Built a Python application for recording income and expenses, generating summaries, and storing records
-- Added budget visualization, savings-goal tracking, customizable categories, and multiple data features
+**94% accuracy · 1st place at WAVE 2.0 · Team Leader, Team Zealot · ₹25,000 prize**
 
-**Tech:** Python · File Handling · CLI Application Design
+**Stack:** Python · OpenCV · dlib · imutils · pygame · Twilio
 
-### 🎓 Student Admission Prediction
+</details>
 
-- Developed a neural-network model for graduate-admission prediction
-- Performed preprocessing, feature handling, training, and evaluation
+<details>
+<summary><b>🩺 Kidney Stone Detection — CNN Medical Imaging · 89.88% Accuracy</b></summary>
+
+### Mission
+
+Classify medical images using a convolutional neural network and provide an accessible prediction interface.
+
+### System
+
+- CNN-based image-classification model
+- 150×150 image-input pipeline
+- Tkinter desktop interface for image selection and prediction
+- OpenCV and Pillow preprocessing workflow
+- Processed more than 200 images
+
+### Result
+
+**89.88% classification accuracy**
+
+**Stack:** Python · TensorFlow · Keras · CNN · OpenCV · Pillow · Tkinter
+
+</details>
+
+<details>
+<summary><b>🔧 EV Predictive Maintenance — ML + Neural Networks</b></summary>
+
+### Mission
+
+Predict the failure class, affected component, and estimated time to failure before an EV system breaks down.
+
+### Signals
+
+Voltage · Current · Temperature · Vibration · Ambient Temperature · Humidity
+
+### Intelligence
+
+- Random Forest classification for failure and component prediction
+- Random Forest regression for time-to-failure estimation
+- Neural-network classification and regression architectures
+- Thermal, electrical, mechanical, and environmental failure modeling
+
+**Stack:** Python · Scikit-learn · TensorFlow/Keras · Pandas · Random Forests · Neural Networks
+
+</details>
+
+<details>
+<summary><b>🤖 ROS Differential-Drive Robot — Perception-to-Action Systems</b></summary>
+
+### Mission
+
+Build and control a differential-drive robot through ROS while understanding the feedback required for reliable autonomous movement.
+
+### Engineering Challenge
+
+The motors did not provide built-in feedback, creating an open-loop control limitation.
+
+### System Direction
+
+- ROS motion-control integration
+- Differential-drive kinematics
+- Encoder and sensor feedback architecture
+- Odometry and robot-state estimation
+- Closed-loop wheel-velocity control
+
+**Focus:** ROS · Motor Control · Sensors · Feedback Systems · Robotics
+
+</details>
+
+<details>
+<summary><b>🛰️ INFYSPACE — SAR Satellite Processing Pipeline</b></summary>
+
+### Mission
+
+Convert raw SAR SLC data into analysis-ready GRD products.
+
+### Pipeline
+
+Orbit correction → Thermal-noise removal → Calibration → Multilooking → Speckle filtering → Terrain correction
+
+**Stack:** Python · ESA SNAP · SAR · Geospatial Data Processing
+
+</details>
+
+<details>
+<summary><b>🎓 Student Admission Prediction — Neural Network · 77.5% Accuracy</b></summary>
+
+- Built a graduate-admission prediction model
+- Performed preprocessing, feature handling, neural-network training, and evaluation
 - Achieved **77.5% accuracy**
 
-**Tech:** Python · NumPy · Pandas · Neural Networks
+**Stack:** Python · NumPy · Pandas · Neural Networks
 
-## Additional ML Work
+</details>
 
-- BIRCH clustering on the Iris dataset
-- ROC analysis using the LFW dataset
-- Ridge and Lasso regression experiments
-- Support Vector Classification with hyperparameter tuning
+<details>
+<summary><b>⚡ Beckn-Enabled EV Charging Platform — Enterprise Integration</b></summary>
+
+- Built EV-charging interoperability components and standardized API flows
+- Worked on charger discovery, booking, reservation, authentication, and live status
+- Integrated Beckn-compatible services with CitrineOS and EVerest
+- Contributed to database-backed APIs, React interfaces, and Dockerized services
+
+**Stack:** Beckn · FastAPI · React · TypeScript · PostgreSQL · Docker · CitrineOS · EVerest
+
+> Professional work is intentionally summarized at a high level.
+
+</details>
+
+<details>
+<summary><b>📦 More Engineering Work</b></summary>
+
+- **Simple Budget Tracker:** Python application for income, expenses, summaries, categories, records, and savings goals
+- **BIRCH Clustering:** Unsupervised learning experiment on the Iris dataset
+- **ROC Analysis:** Classification evaluation using the LFW dataset
+- **Regression Lab:** Ridge and Lasso experiments
+- **SVC Tuning:** Support Vector Classification with hyperparameter optimization
 - Data cleaning, ETL, exploratory analysis, and visualization notebooks
 
-## Experience
+</details>
 
-### Specialist Programmer — Infosys
+## 🧭 Experience Timeline
 
-- Contributing to intelligent, interoperable platforms across AI, energy, APIs, and full-stack systems
-- Building Python services, React interfaces, database-backed workflows, and containerized components
-- Working on architecture, integration, data-driven optimization, and real-world product flows
+```mermaid
+timeline
+    title Engineering Journey
+    2023 : Project Support at FUEL
+         : Python, ML and Edge AI exposure
+    2024 : WAVE 2.0 Hackathon Winner
+         : Driver Safety Intelligence
+    2025 : Infosys Specialist Programmer Internship
+         : Enterprise Java and SAR processing
+    2025-Present : Specialist Programmer at Infosys
+                 : Intelligent platforms, APIs and integrations
+```
 
-### Specialist Programmer Intern — Infosys, Hubli
+<details>
+<summary><b>Specialist Programmer — Infosys</b></summary>
+
+- Building enterprise applications, APIs, integrations, and intelligent workflows
+- Working across Python, Java, React, databases, containerized systems, and applied AI
+- Contributing to backend architecture, automation, and data-driven optimization
+
+</details>
+
+<details>
+<summary><b>Specialist Programmer Intern — Infosys, Hubli</b></summary>
 
 - Trained in Java, Spring Boot, microservices, REST APIs, JPA, Spring Security, Spring Cloud, React, Redux, and TypeScript
 - Applied Python and ML to satellite-data analysis and SAR-processing workflows
 
-### Project Support — FUEL, Hubli
+</details>
+
+<details>
+<summary><b>Project Support — FUEL, Hubli</b></summary>
 
 - Applied Python and machine learning to data-driven projects
 - Gained exposure to edge-AI systems for real-time surveillance and safety applications
 
-## Technical Skills
+</details>
 
-### Programming
+## 🎛️ Technology Control Panel
+
+### AI Core
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-
-### AI, ML & Data
-
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
@@ -145,39 +295,48 @@ to scalable full-stack platforms, geospatial pipelines, and energy technology.
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 
-**Machine Learning · Deep Learning · Computer Vision · NLP · Forecasting · Data Analysis · ETL · RAG · AI Agents**
+**Machine Learning · Deep Learning · Neural Networks · CNNs · Computer Vision · NLP · Forecasting · Data Analysis · ETL**
 
-### Backend & Full Stack
+### Enterprise AI & Backend
 
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Redux](https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=redux&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-**REST APIs · Microservices · JPA/Hibernate · Spring Security · OAuth2/JWT · Spring Cloud · Resilience4j · OpenFeign**
+**RAG · Embeddings · Vector Databases · AI Agents · REST APIs · Microservices · OAuth2/JWT · Resilience4j**
 
-### Robotics, Cloud & Engineering Tools
+### Software & Robotics
 
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![ROS](https://img.shields.io/badge/ROS-22314E?style=flat-square&logo=ros&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 
-**Differential-Drive Robotics · Motor Control · Sensors · Solid Edge · Laser Cutting · Git/GitHub · Jupyter · VS Code · ESA SNAP**
+**SQL · JavaScript · Redux · Motor Control · Sensors · Git/GitHub · Jupyter · VS Code · ESA SNAP**
 
-**Currently strengthening:** Kubernetes · Kafka/RabbitMQ · Prometheus · ELK · AWS/Azure · LangChain · Vector Databases
+<details>
+<summary><b>Currently strengthening</b></summary>
 
-## Achievements
+LangChain · FAISS/Pinecone/Weaviate · RAG Evaluation · Agent Architecture · Kubernetes · Kafka/RabbitMQ · Prometheus · ELK · AWS/Azure
 
-- 🏆 **WAVE 2.0 Hackathon Winner:** Team Leader, Team Zealot — 1st place in a 24-hour hackathon with a **₹25,000 prize**
-- 🎓 **GATE Data Science & AI Qualified:** All India Rank **4687**, GATE score **418**
-- 💻 **TCS CodeVita Season 12:** Global Rank **1955** and cleared Round 1
-- 🚀 Secured the **Infosys Specialist Programmer** role after completing the SP internship
+</details>
 
-## Certifications
+## 🏆 Signals
+
+| Achievement | Result |
+|---|---|
+| WAVE 2.0 Hackathon | **Winner · Team Leader · ₹25,000 prize** |
+| GATE Data Science & AI | **Qualified · AIR 4687 · Score 418** |
+| TCS CodeVita Season 12 | **Global Rank 1955 · Cleared Round 1** |
+| Infosys | **Secured Specialist Programmer role after internship** |
+
+<details>
+<summary><b>Certifications</b></summary>
 
 - Google Advanced Data Analytics Specialization
 - Google Data Analytics
@@ -188,12 +347,33 @@ to scalable full-stack platforms, geospatial pipelines, and energy technology.
 - Career Essentials in Data Analysis — Microsoft & LinkedIn
 - NPTEL Data Analytics with Python — Score: 72%
 
-## GitHub Overview
+</details>
 
-### Let's Build Something Meaningful
+## 📡 Live GitHub Signal
 
-Open to collaboration in **robotics, AI products, computer vision, intelligent agents, mobility, energy technology, and full-stack systems**.
+<div align="center">
 
-[LinkedIn](https://www.linkedin.com/in/mohanraokulkarni-softwaredeveloper/) · [Email](mailto:mohanrao0702202@gmail.com) · [Repositories](https://github.com/mohanraokulkarni?tab=repositories)
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=mohanraokulkarni&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" alt="Mohanrao's GitHub statistics" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohanraokulkarni&layout=compact&hide_border=true&theme=transparent" alt="Most used languages" />
 
 </div>
+
+---
+
+## 🤝 Connect
+
+<div align="center">
+
+### Have an AI problem that should become a real system?
+
+[![Portfolio](https://img.shields.io/badge/Explore_My_AI_Portfolio-00A6A6?style=for-the-badge&logo=githubpages&logoColor=white)](https://mohanraokulkarni.github.io/AIEngineer/)
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohanraokulkarni-softwaredeveloper/)
+[![Email](https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohanrao0702202@gmail.com)
+
+<br/><br/>
+
+**AI Enterprise Development · Machine Learning · RAG · Computer Vision · Robotics**
+
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,45:102A56,100:00A6A6&height=110&section=footer" alt="" />
