@@ -190,17 +190,6 @@ to scalable full-stack platforms, geospatial pipelines, and energy technology.
 
 ## GitHub Overview
 
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=mohanraokulkarni&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" alt="Mohanrao's GitHub statistics" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohanraokulkarni&layout=compact&hide_border=true&theme=transparent" alt="Most used languages" />
-
-</div>
-
----
-
-<div align="center">
-
 ### Let's Build Something Meaningful
 
 Open to collaboration in **robotics, AI products, computer vision, intelligent agents, mobility, energy technology, and full-stack systems**.
